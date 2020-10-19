@@ -1,0 +1,25 @@
+@import "mixins";
+body,html{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/022/323/513/large/mario-aceituno-fondo-pantalla-quiz.jpg?1574978636');
+    }
+    
+#quiz{
+        padding-top: 30%;
+    }
+#trivia{
+    @include some;
+        background-color: #a8dadc;
+    }   
+.jumbotron{
+        background-color: #f1faee;
+    }
+.btn{ 
+        background-color: #e63946;
+    }
+
+    #result{
+        @include some;
+        background-color: #ffb4a2;
+    }

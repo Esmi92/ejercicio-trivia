@@ -129,10 +129,20 @@ function createTest() {
                                         if (theValue == theData[i].correct_answer) {
                                             score = score + 100
                                             console.log(score)
+                                            const p = document.createElement('p')
+                                            p.classList.add('text-center')
+                                            p.innerHTML=theValue
+                                            let q =document.getElementById(`pregunta${i}`)
+                                            q.appendChild(p)
                                         }
                                         else if (theValue != theData[i].correct_answer) {
                                             score = score + 0
                                             console.log(score)
+                                            const p = document.createElement('p')
+                                            p.classList.add('text-center')
+                                            p.innerHTML=theValue
+                                            let q =document.getElementById(`pregunta${i}`)
+                                            q.appendChild(p)
                                         }
                                     }
                                 }
@@ -145,10 +155,20 @@ function createTest() {
                                         if (theValue == theData[i].correct_answer) {
                                             score = score + 100
                                             console.log(score)
+                                            const p = document.createElement('p')
+                                            p.classList.add('text-center')
+                                            p.innerHTML=theValue
+                                            let q =document.getElementById(`pregunta${i}`)
+                                            q.appendChild(p)
                                         }
                                         else if (theValue != theData[i].correct_answer) {
                                             score = score + 0
                                             console.log(score)
+                                            const p = document.createElement('p')
+                                            p.classList.add('text-center')
+                                            p.innerHTML=theValue
+                                            let q =document.getElementById(`pregunta${i}`)
+                                            q.appendChild(p)
                                         }
                                     }
                                 }

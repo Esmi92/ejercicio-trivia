@@ -45,6 +45,7 @@ function createTest() {
                 console.log(theData)
 
                 const questions = document.querySelector('#allQuestions')
+                questions.innerHTML=''
 
                 for (let i = 0; i < 10; i++) {
                     const correct = theData[i].correct_answer
